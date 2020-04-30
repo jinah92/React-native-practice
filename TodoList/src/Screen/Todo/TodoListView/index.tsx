@@ -3,7 +3,7 @@ import Styled from 'styled-components/native';
 import Header from './Header';
 import TodoList from './TodoList';
 
-const Container = Styled.View`flex:1;`;
+const Container = Styled.SafeAreaView`flex:1;`;
 
 interface Props {}
 

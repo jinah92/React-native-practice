@@ -1,4 +1,4 @@
-import React, {useState, useContext} from 'react';
+import React, {useContext} from 'react';
 import {FlatList} from 'react-native';
 import Styled from 'styled-components/native';
 import {TodoListContext} from '~/Context/TodoListContext';
@@ -23,7 +23,7 @@ const TodoList = ({}: Props) => {
       renderItem={({item, index}) => (
         <TodoItem
           text={item as string}
-          onDelete={() => removeTodolist(index)}
+          onDelete={() => removeTodoList(index)}
         />
       )}
       contentContainerStyle={todoList.length === 0 && {flex: 1}}
