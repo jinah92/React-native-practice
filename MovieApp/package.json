@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-native-community/async-storage": "1.10.0",
     "@react-navigation/native": "5.2.4",
+    "@types/react-navigation": "3.4.0",
     "react": "16.11.0",
     "react-native": "0.62.2",
     "react-native-gesture-handler": "1.6.1",

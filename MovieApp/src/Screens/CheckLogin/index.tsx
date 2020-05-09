@@ -1,6 +1,6 @@
 import React from 'react';
 import AsyncStorage from '@react-native-community/async-storage';
-import {NavigationScreenProp, NavigationState} from 'react-navigation/native';
+import {NavigationScreenProp, NavigationState} from 'react-navigation';
 import {ActivityIndicator} from 'react-native';
 import Styled from 'styled-components/native';
 
